@@ -1,0 +1,42 @@
+{
+  "hard_test_acc": 59.62,
+  "per_class_acc": {
+    "circle": 80.5,
+    "square": 73.5,
+    "triangle": 39.0,
+    "star": 45.5
+  },
+  "confusion_matrix": [
+    [
+      161,
+      39,
+      0,
+      0
+    ],
+    [
+      35,
+      147,
+      9,
+      9
+    ],
+    [
+      32,
+      90,
+      78,
+      0
+    ],
+    [
+      25,
+      81,
+      3,
+      91
+    ]
+  ],
+  "classes": [
+    "circle",
+    "square",
+    "triangle",
+    "star"
+  ],
+  "n_test": 800
+}

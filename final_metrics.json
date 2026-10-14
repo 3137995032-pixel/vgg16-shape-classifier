@@ -1,0 +1,43 @@
+{
+  "test_acc": 100.0,
+  "per_class_acc": {
+    "circle": 100.0,
+    "square": 100.0,
+    "triangle": 100.0,
+    "star": 100.0
+  },
+  "confusion_matrix": [
+    [
+      200,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      200,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      200,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      200
+    ]
+  ],
+  "classes": [
+    "circle",
+    "square",
+    "triangle",
+    "star"
+  ],
+  "infer_ms_mean": 40.6,
+  "n_test": 800
+}
